@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.practice.mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
