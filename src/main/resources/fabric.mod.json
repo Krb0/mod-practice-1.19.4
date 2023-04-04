@@ -25,10 +25,14 @@
 			"net.practice.mod.PracticeModDataGenerator"
 		]
 	},
+	"mixins": [
+		"practice-mod.mixins.json"
+	],
 	"depends": {
 		"fabricloader": ">=0.14.18",
 		"minecraft": "~1.19.4",
 		"java": ">=17",
+		"geckolib": ">=4.0.4",
 		"fabric-api": "*"
 	},
 	"suggests": {

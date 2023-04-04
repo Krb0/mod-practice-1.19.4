@@ -3,7 +3,8 @@
 	"package": "net.practice.mod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"ModEntityDataSaver",
+		"PracticeModMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
